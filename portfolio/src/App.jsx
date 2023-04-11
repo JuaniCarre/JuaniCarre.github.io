@@ -1,10 +1,9 @@
-import Header from './components/Header'
 
 function App() {
-
-  return (
-    <Header/>
+  return(
+    <div>Hola</div>
   )
+  
 }
 
 export default App
