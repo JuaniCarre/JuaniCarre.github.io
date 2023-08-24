@@ -1,0 +1,9 @@
+import 
+.AboutMe{
+  padding-left: 50px;
+  border-style: double;
+  border-color: rgb(180, 140, 20);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}

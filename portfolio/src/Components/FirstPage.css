@@ -1,0 +1,23 @@
+.App{
+  background-image: url('../images/Background1.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(180, 140, 20);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 60vh;
+}
+
+.name{
+  display: flex;
+  justify-content: center;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+}
