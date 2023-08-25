@@ -1,0 +1,17 @@
+.LinksContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.FooterImage{
+  width: 70px;
+}
+
+.footerText{
+  display: flex;
+  justify-content: center;
+}

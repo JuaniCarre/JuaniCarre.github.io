@@ -1,22 +1,31 @@
-.App{
+.FirstPageContainer{
   background-image: url('../images/Background1.jpg') ;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   border-style: double;
   border-color: rgb(180, 140, 20);
   border-top: none;
   border-left: none;
   border-right: none;
-  height: 60vh;
+  height: fit-content;
+  padding-bottom: 70px;
+  justify-content: space-around;
+  padding-top: 70px;
+}
+
+.MyPicture{
+  display: flex;
+  height: 250px;
+  width: fit-content;
+  margin-top: 60px;
 }
 
 .name{
   display: flex;
   justify-content: baseline;
   margin-top: 40px;
-  margin-left: 100px;
   margin-bottom: 5px;
 }
 
@@ -24,12 +33,11 @@
   display: flex;
   justify-content: baseline;
   margin-top: 0px;
-  margin-left: 100px;
 }
 
 .quote{
   display: flex;
-  margin-left: 100px;
   margin-top: 40px;
   font-weight: 400;
+  line-height: 34px;
 }

@@ -3,12 +3,18 @@
   justify-content: center;
   font-size: 32px;
   font-weight: 400;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
-.container{
-  margin-top: 100px;
-  margin-bottom: 70px;
+.skillscontainer{
+  margin-top: 50px;
+  padding-bottom: 70px;
+  margin-bottom: 50px;
+  border-style: double;
+  border-color: rgb(180, 140, 20);
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 .SkillImg{
@@ -36,7 +42,7 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-bottom: 70px;
+  margin-bottom: 15px;
   
 }
 

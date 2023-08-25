@@ -13,62 +13,62 @@ import postman from '../../images/postman.png'
 
 
 function Technologies(){
-  return(
-  <div className='container'>
+    return(
+    <div className='skillscontainer'>
     <h2 className="SkillsTitle">Skills</h2>
     <div className='tec4'>
-      <div className='skill'>
-          <img src={node} alt="Node.JS" className='SkillImg'></img>
-          <p className="skillName">Node.JS</p>
-      </div>
-      <div className='skill'>
-          <img src={js} alt="JavaScript" className='SkillImg'></img>
-          <p className="skillName">JavaScript</p>
-      </div>
-      <div className='skill'>
-          <img src={html} alt="HTML" className='SkillImg'></img>
-          <p className="skillName">HTML</p>
-      </div>
-      <div className='skill'>
-          <img src={mysql} alt="MySQL" className='SkillImg'></img>
-          <p className="skillName">MySQL</p>
-      </div>
+        <div className='skill'>
+            <img src={node} alt="Node.JS" className='SkillImg'></img>
+            <p className="skillName">Node.JS</p>
+        </div>
+        <div className='skill'>
+            <img src={js} alt="JavaScript" className='SkillImg'></img>
+            <p className="skillName">JavaScript</p>
+        </div>
+        <div className='skill'>
+            <img src={html} alt="HTML" className='SkillImg'></img>
+            <p className="skillName">HTML</p>
+        </div>
+        <div className='skill'>
+            <img src={mysql} alt="MySQL" className='SkillImg'></img>
+            <p className="skillName">MySQL</p>
+        </div>
     </div>
     <div className='tec4'>
-      <div className='skill'>
-          <img src={postgres} alt="Postgres" className='SkillImg'></img>
-          <p className="skillName">Postgres</p>
-      </div>
-      <div className='skill'>
-          <img src={react} alt="React" className='SkillImg'></img>
-          <p className="skillName">React</p>
-      </div>
-      <div className='skill'>
-          <img src={redux} alt="CSS" className='SkillImg'></img>
-          <p className="skillName">Redux</p>
-      </div>
-      <div className='skill'>
-          <img src={sequelize} alt="CSS" className='SkillImg'></img>
-          <p className="skillName">Sequelize</p>
-      </div>
+        <div className='skill'>
+            <img src={postgres} alt="Postgres" className='SkillImg'></img>
+            <p className="skillName">Postgres</p>
+        </div>
+        <div className='skill'>
+            <img src={react} alt="React" className='SkillImg'></img>
+            <p className="skillName">React</p>
+        </div>
+        <div className='skill'>
+            <img src={redux} alt="CSS" className='SkillImg'></img>
+            <p className="skillName">Redux</p>
+        </div>
+        <div className='skill'>
+            <img src={sequelize} alt="CSS" className='SkillImg'></img>
+            <p className="skillName">Sequelize</p>
+        </div>
     </div>
     <div className='tec3'>
     <div className='skill'>
-          <img src={mongo} alt="MongoDb" className='SkillImg'></img>
-          <p className="skillName">MongoDb</p>
-      </div>
-      <div className='skill'>
-          <img src={postman} alt="Postman" className='SkillImg'></img>
-          <p className="skillName">Postman</p>
-      </div>
-      <div className='skill'>
-          <img src={css} alt="CSS" className='SkillImg'></img>
-          <p className="skillName">CSS</p>
-      </div>
-      
+            <img src={mongo} alt="MongoDb" className='SkillImg'></img>
+            <p className="skillName">MongoDb</p>
+        </div>
+        <div className='skill'>
+            <img src={postman} alt="Postman" className='SkillImg'></img>
+            <p className="skillName">Postman</p>
+        </div>
+        <div className='skill'>
+            <img src={css} alt="CSS" className='SkillImg'></img>
+            <p className="skillName">CSS</p>
+        </div>
+        
     </div>
-  </div>
-  )
+    </div>
+    )
 }
 
 export default Technologies;

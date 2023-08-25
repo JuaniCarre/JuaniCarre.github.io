@@ -1,0 +1,45 @@
+.ProjectsContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ProjectTag{
+  font-size: 36px;
+}
+
+.ProjectContainer{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-left: 12%;
+  padding-right: 10%;
+  justify-content: space-between;
+}
+
+.ProjectImage{
+  height: 300px;
+  width: fit-content;
+}
+
+.ProjectTitle{
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.ProjectRole{
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.ProjectLinks{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.ProjectDescription{
+  font-size: 16px;
+  line-height: 22px;
+}
