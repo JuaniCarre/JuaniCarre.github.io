@@ -1,21 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import FirstPage from './Components/FirstPage';
-import Header from './Components/Header';
-import Projects from './Components/Projects/projects';
-import AboutMe from './Components/AboutMe';
-import Technologies from './Components/Technologies/Technologies';
-import Footer from './Components/Footer/Footer';
+import Home from './Components/home';
+
+import i18next from 'i18next'
+import global_es from './translations/es/global.json'
+import global_en from './translations/en/global.json'
+
+i18next.init({
+  interpolation: {escapeValue:true},
+  lng:'es',
+  resources:{
+    es: {
+      global:global_es
+    },
+    en: {
+      global: global_en
+    }
+  }
+})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header/>
-    <FirstPage />
-    <AboutMe/>
-    <Technologies/>
-    <Projects/>
-    <Footer/>
+    <i18nextProvider i18n={i18next}>
+      <Home/>
+    </i18nextProvider>
   </React.StrictMode>
 );
 

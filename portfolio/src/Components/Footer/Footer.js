@@ -23,7 +23,7 @@ function Footer(){
 
   return(
     <footer>
-      <h3 className="footerText">Contact:</h3>
+      <h3 className="footerText" id="contact">Contact:</h3>
       <div className='LinksContainer'>
         <a href='https://www.linkedin.com/in/juani-carre/'><img src={linkedin} alt="Linkedin" className="FooterImage"/></a>
         <img src={gmail} alt="Mail" className="FooterImage" onClick={handleGmailClick}/>

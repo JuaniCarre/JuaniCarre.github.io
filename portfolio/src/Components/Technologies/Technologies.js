@@ -15,7 +15,7 @@ import postman from '../../images/postman.png'
 function Technologies(){
     return(
     <div className='skillscontainer'>
-    <h2 className="SkillsTitle">Skills</h2>
+    <h2 className="SkillsTitle"  id="skills">Skills</h2>
     <div className='tec4'>
         <div className='skill'>
             <img src={node} alt="Node.JS" className='SkillImg'></img>

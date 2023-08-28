@@ -7,6 +7,16 @@
   border-right: none;
 }
 
+.titleAbout{
+  padding-top: 65px;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
 .textAboutMe{
   font-size: 22px;
   display: flex;
@@ -15,4 +25,5 @@
   padding-left: 6%;
   padding-right: 6%;
   line-height: 35px;
+  padding-bottom: 80px;
 }

@@ -5,7 +5,7 @@ import './projects.css'
 function Projects(){
   return(
     <div className="ProjectsContainer">
-      <h2 className="ProjectTag">Proyectos</h2>
+      <h2 className="ProjectTag" id="projects">Proyectos</h2>
       <div className="ProjectContainer">
         <img src={css} alt="Imagen o video del proyecto" className="ProjectImage"></img>
         <div className="ProjectText">

@@ -1,0 +1,8 @@
+{
+  "header":{
+    "AboutMe":"<About Me/>",
+    "Skills":"<Skills/>",
+    "Projects":"<Projects/>",
+    "Contact":"<Contact/>"
+  }
+}
