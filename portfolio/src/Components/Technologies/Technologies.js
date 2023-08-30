@@ -10,12 +10,14 @@ import redux from '../../images/redux.png'
 import sequelize from '../../images/sequelize.png'
 import mongo from '../../images/mongo.png'
 import postman from '../../images/postman.png'
+import { useTranslation } from 'react-i18next'
 
 
 function Technologies(){
+    const [t] = useTranslation("global")
     return(
     <div className='skillscontainer'>
-    <h2 className="SkillsTitle"  id="skills">Skills</h2>
+    <h2 className="SkillsTitle"  id="skills">{t("Skills")}</h2>
     <div className='tec4'>
         <div className='skill'>
             <img src={node} alt="Node.JS" className='SkillImg'></img>

@@ -1,8 +1,32 @@
 {
   "header":{
-    "AboutMe":"<About Me/>",
-    "Skills":"<Skills/>",
-    "Projects":"<Projects/>",
-    "Contact":"<Contact/>"
-  }
-}
+    "AboutMe":"Sobre mi",
+    "Skills":"Habilidades",
+    "Projects":"Proyectos",
+    "Contact":"Contacto",
+    "CV":"CV"
+  },
+  "FirstPage":{
+    "Title":"Desarrollador backend.",
+    "q1":"It's me against myself",
+    "q2":"And i'm not going to loose",
+    "q3":"Just kidding.",
+    "location":"De Argentina, Buenos Aires."
+  },
+  "AboutMe":{
+    "TitleAbout":"Sobre mi",
+    "TextAbout1":"Hola! Soy un desarrollador web full stack, especializado en backend. Tengo 24 años, soy de Argentina y actualmente vivo en Buenos Aires.",
+    "TextAbout2":"Mi camino dentro de la programacion comenzó al realizar el bootcamp de Soy Henry, el cual finalice exitosamente.",
+    "TextAbout3":"Estoy muy entusiasmado por demostrar mis conocimientos y habilidades, y contribuir en proyectos que me apasionen."
+  },
+  "Skills":"Habilidades",
+  "Projects":{
+    "Projects":"Proyectos",
+    "title1":"Titulo del proyecto",
+    "role1":"Rol en proyecto",
+    "description1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+    "repo":"Repositorio",
+    "deploy":"Link"
+  },
+  "Contact":"Contacto"
+} 

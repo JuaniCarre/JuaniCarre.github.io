@@ -2,9 +2,11 @@ import './Footer.css'
 import linkedin from '../../images/linkedin.png'
 import gmail from '../../images/gmail.png'
 import github from "../../images/github.png"
+import { useTranslation } from 'react-i18next'
 
 function Footer(){
 
+  const [t] = useTranslation("global")
 
   const copyToClipboard = (text) => {
     const textarea = document.createElement('textarea');
@@ -23,7 +25,7 @@ function Footer(){
 
   return(
     <footer>
-      <h3 className="footerText" id="contact">Contact:</h3>
+      <h3 className="footerText" id="contact">{t("Contact")}</h3>
       <div className='LinksContainer'>
         <a href='https://www.linkedin.com/in/juani-carre/'><img src={linkedin} alt="Linkedin" className="FooterImage"/></a>
         <img src={gmail} alt="Mail" className="FooterImage" onClick={handleGmailClick}/>

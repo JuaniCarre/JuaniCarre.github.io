@@ -1,8 +1,32 @@
 {
-  "header":{
-    "AboutMe":"<About Me/>",
-    "Skills":"<Skills/>",
-    "Projects":"<Projects/>",
-    "Contact":"<Contact/>"
-  }
+  "header": {
+    "AboutMe": "About Me",
+    "Skills": "Skills",
+    "Projects": "Projects",
+    "Contact": "Contact",
+    "CV": "CV"
+  },
+  "FirstPage": {
+    "Title": "Backend Developer.",
+    "q1": "It's me against myself",
+    "q2": "And I'm not going to lose",
+    "q3": "Just kidding.",
+    "location": "From Argentina, Buenos Aires."
+  },
+  "AboutMe": {
+    "TitleAbout": "About Me",
+    "TextAbout1": "Hello! I am a full stack web developer, specialized in backend. I am 24 years old, from Argentina, and currently living in Buenos Aires.",
+    "TextAbout2": "My journey in programming began when I successfully completed the Soy Henry bootcamp.",
+    "TextAbout3": "I am very excited to showcase my knowledge and skills, and contribute to projects that I am passionate about."
+  },
+  "Skills": "Skills",
+  "Projects": {
+    "Projects": "Projects",
+    "title1": "Project Title",
+    "role1": "Role in Project",
+    "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "repo": "Repository",
+    "deploy": "Link"
+  },
+  "Contact": "Contact"
 }
