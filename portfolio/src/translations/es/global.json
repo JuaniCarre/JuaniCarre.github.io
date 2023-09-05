@@ -22,9 +22,9 @@
   "Skills":"Habilidades",
   "Projects":{
     "Projects":"Proyectos",
-    "title1":"Titulo del proyecto",
-    "role1":"Rol en proyecto",
-    "description1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+    "title1":"AutoBid",
+    "role1":"Desarrollador backend - Pasantia",
+    "description1":"Desarrollo del servidor y base de datos del proyecto. Implementacion de funcionalidades como el manejo de usuarios y sus roles, subastas, pujas, tiempos de ejecucion, enrutado logico, entre otras tareas.",
     "repo":"Repositorio",
     "deploy":"Link"
   },

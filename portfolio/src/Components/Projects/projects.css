@@ -19,11 +19,13 @@
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  justify-content: space-between;
+  padding-bottom: 90px;
 }
 
 .ProjectImage{
-  height: 300px;
-  width: fit-content;
+  height: 250px;
+  width: 400px;
 }
 
 .ProjectTitle{
@@ -68,4 +70,9 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.ProjectLink{
+  color: var(--p2);
+  text-decoration: none;
 }

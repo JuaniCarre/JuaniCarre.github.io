@@ -9,27 +9,62 @@ function Header(){
   const [t, i18n] = useTranslation("global")
 
   function toAbout(){
-    const About = document.getElementById("aboutMe")
-    About.scrollIntoView({ block: "start", behavior: "smooth" })
+    const AboutSection = document.getElementById("aboutMe");
+    const navbarHeight = document.getElementById("navContainer").offsetHeight
+  
+    const aboutSectionPosition = AboutSection.getBoundingClientRect().top + window.scrollY;
+    const scrollToY = aboutSectionPosition - navbarHeight;
+  
+    window.scrollTo({
+      top: scrollToY,
+      behavior: "smooth",
+    });
   }
+
   function toSkills(){
-    const Skills = document.getElementById("skills")
-    Skills.scrollIntoView({ block: "start", behavior: "smooth" })
+    const skillsSection = document.getElementById("skills");
+    const navbarHeight = document.getElementById("navContainer").offsetHeight
+  
+    const skillsSectionPosition = skillsSection.getBoundingClientRect().top + window.scrollY;
+    const scrollToY = skillsSectionPosition - navbarHeight;
+  
+    window.scrollTo({
+      top: scrollToY,
+      behavior: "smooth",
+    });
   }
+
   function toProjects(){
-    const Projects = document.getElementById("projects")
-    Projects.scrollIntoView({ block: "start", behavior: "smooth" })
+    const projectSection = document.getElementById("projects");
+    const navbarHeight = document.getElementById("navContainer").offsetHeight
+  
+    const projectSectionPosition = projectSection.getBoundingClientRect().top + window.scrollY;
+    const scrollToY = projectSectionPosition - navbarHeight;
+  
+    window.scrollTo({
+      top: scrollToY,
+      behavior: "smooth",
+    });
   }
+
   function toContact(){
-    const Contact = document.getElementById("contact")
-    Contact.scrollIntoView({ block: "start", behavior: "smooth" })
+    const contactSection = document.getElementById("contact");
+    const navbarHeight = document.getElementById("navContainer").offsetHeight
+
+    const contactSectionPosition = contactSection.getBoundingClientRect().top + window.scrollY;
+    const scrollToY = contactSectionPosition - navbarHeight;
+  
+    window.scrollTo({
+      top: scrollToY,
+      behavior: "smooth",
+    });
   }
 
 
 
   return(
-    <header id="navBar">
-    <div className="navContainer">
+    <header id="navbar" className='navbar'>
+    <div className="navContainer" id='navContainer'>
     <ul className='items'>
       <a href='https://drive.google.com/drive/folders/1WuP7f1CY7OA5xPQ-w4ZdJ_G2MPTLnaIq?usp=sharing' target="_blank"><li className='listItem'>{t("header.CV")}</li></a>
       <li className='listItem' onClick={e=>toAbout()}>{t("header.AboutMe")}</li>

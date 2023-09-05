@@ -4,7 +4,7 @@
     "Skills": "<SKILLS/>",
     "Projects": "<PROJECTS/>",
     "Contact": "<CONTACT/>",
-    "CV": "<CV>"
+    "CV": "<CV/>"
   },
   "FirstPage": {
     "Title": "Backend Developer.",
@@ -22,11 +22,23 @@
   "Skills": "Skills",
   "Projects": {
     "Projects": "Projects",
-    "title1": "Project Title",
-    "role1": "Role in Project",
-    "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "repo": "Repository",
-    "deploy": "Link"
+    "Project1": {
+      "title": "Auto Bid",
+      "role": "Backend developer - Internship.",
+      "description": "Developement of the server and database for the project. Implementation of functionalities, users management, auctions, bidding, execution times, logical routing, among other tasks.",
+      "repo": "Repository",
+      "deploy": "Link"
+    },
+    "Project2": {
+      "title": "Henry Luxury E-commerce",
+      "role": "Backend developer",
+      "description": "Developement of the server and database for the project, using MongoDB as database and Mongoose as ORM. Fully working server, including admin dashboard, payment methods, stock control, mail notifications to users, among other functionalities"
+    },
+    "Project3": {
+      "title": "PokePedia",
+      "role": "Full Stack developer",
+      "description": "Design and developement of a single page application, that includes searches, filtering, sorting and creation. Developed using React with Redux and CSS on the front-end and Node.js with Express and PostgreSQL on the back-end."
+    }
   },
   "Contact": "Contact"
 }

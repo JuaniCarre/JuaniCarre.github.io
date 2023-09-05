@@ -16,8 +16,8 @@ import { useTranslation } from 'react-i18next'
 function Technologies(){
     const [t] = useTranslation("global")
     return(
-    <div className='skillscontainer'>
-    <h2 className="SkillsTitle"  id="skills">{t("Skills")}</h2>
+    <div className='skillscontainer' id="skills">
+    <h2 className="SkillsTitle">{t("Skills")}</h2>
     <div className='tec4'>
         <div className='skill'>
             <img src={node} alt="Node.JS" className='SkillImg'></img>
