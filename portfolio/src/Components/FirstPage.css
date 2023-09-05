@@ -1,28 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500&family=Asap+Condensed:wght@300&display=swap');
+
+
 .FirstPageContainer{
-  background-image: url('../images/Background1.jpg') ;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: var(--p4);
   display: flex;
   flex-direction: row;
   border-style: double;
-  border-color: rgb(180, 140, 20);
+  border-color: var(--p1);
   border-top: none;
   border-left: none;
   border-right: none;
   height: fit-content;
   padding-bottom: 70px;
-  justify-content: space-around;
   padding-top: 70px;
+  justify-content: space-between;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .MyPicture{
   display: flex;
-  height: 250px;
+  height: 300px;
   width: fit-content;
   margin-top: 60px;
+  border-radius: 50%;
 }
 
 .name{
+  font-family: 'Archivo Narrow', sans-serif;
+  letter-spacing: 0.7mm;
   display: flex;
   justify-content: baseline;
   margin-top: 40px;
@@ -30,12 +37,15 @@
 }
 
 .title{
+  font-family: 'Asap Condensed', sans-serif;
+  letter-spacing: 0.4mm;
   display: flex;
   justify-content: baseline;
   margin-top: 0px;
 }
 
 .quote{
+  font-family: 'Asap Condensed', sans-serif;
   display: flex;
   margin-top: 40px;
   font-weight: 400;

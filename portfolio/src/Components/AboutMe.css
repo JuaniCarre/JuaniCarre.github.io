@@ -1,29 +1,32 @@
 .AboutMe{
-  padding-left: 50px;
+  background-color: var(--p4);
   border-style: double;
-  border-color: rgb(180, 140, 20);
+  border-color: var(--p1);
   border-top: none;
   border-left: none;
   border-right: none;
+  justify-content: space-between;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .titleAbout{
+  font-family: 'Archivo Narrow', sans-serif;
+  letter-spacing: 0.7mm;
+  font-weight: 500;
   padding-top: 65px;
-  font-size: 28px;
+  font-size: 30px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  padding-left: 6%;
-  padding-right: 6%;
 }
 
 .textAboutMe{
+  font-family: 'Asap Condensed', sans-serif;
   font-size: 22px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  padding-left: 6%;
-  padding-right: 6%;
   line-height: 35px;
   padding-bottom: 80px;
 }

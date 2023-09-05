@@ -1,17 +1,28 @@
+.footerContainer{
+  background-color: rgb(20,20,20);
+  padding-bottom: 7%;
+}
+
 .LinksContainer{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  padding-top: 20px;
-  padding-bottom: 70px;
+  justify-content: center;
+  padding-top: 10px;
+
 }
 
 .FooterImage{
-  width: 70px;
+  width: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .footerText{
+  padding-top: 50px;
+  font-family: 'Archivo Narrow', sans-serif;
+  letter-spacing: 0.7mm;
+  font-weight: 500;
   display: flex;
   justify-content: center;
 }

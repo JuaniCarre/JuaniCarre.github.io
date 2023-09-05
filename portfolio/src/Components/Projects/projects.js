@@ -16,8 +16,12 @@ function Projects(){
           <h5 className="ProjectRole">{t("Projects.role1")}</h5>
           <p className="ProjectDescription">{t("Projects.description1")}</p>
           <ul className='ProjectLinks'>
-            <li>{t("Projects.repo")}</li>
-            <li>{t("Projects.deploy")}</li>
+            <button className='ProjectButton'>
+              <li>{t("Projects.repo")}</li>
+            </button>
+            <button className='ProjectButton'>
+              <li>{t("Projects.deploy")}</li>
+            </button>
           </ul>
         </div>
       </div>

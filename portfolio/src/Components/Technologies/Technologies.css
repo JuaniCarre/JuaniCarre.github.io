@@ -1,8 +1,10 @@
 .SkillsTitle{
+  font-family: 'Archivo Narrow', sans-serif;
+  letter-spacing: 0.7mm;
+  font-weight: 500;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: 32px;
-  font-weight: 400;
   margin-bottom: 30px;
   padding-top: 60px;
 }
@@ -12,10 +14,13 @@
   padding-bottom: 70px;
   margin-bottom: 50px;
   border-style: double;
-  border-color: rgb(180, 140, 20);
+  border-color: var(--p1);
   border-top: none;
   border-left: none;
   border-right: none;
+  justify-content: space-between;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .SkillImg{
@@ -29,6 +34,8 @@
 }
 
 .skill:hover .skillName{
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 15px;
   visibility: visible;
 }
 
@@ -42,9 +49,8 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom: 15px;
-  
 }
 
 .tec3{
@@ -52,5 +58,5 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }

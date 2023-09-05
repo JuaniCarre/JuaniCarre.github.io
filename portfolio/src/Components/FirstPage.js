@@ -1,5 +1,5 @@
 import './FirstPage.css'
-import css from '../images/CSS3.png'
+import css from '../images/micara.jpg'
 import { useTranslation } from 'react-i18next'
 
 function FirstPage() {
@@ -19,5 +19,5 @@ function FirstPage() {
     </div>
   );
 }
-
+//De argentina buenos airs misma font q el name
 export default FirstPage;

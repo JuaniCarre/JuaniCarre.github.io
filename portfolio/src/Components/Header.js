@@ -31,7 +31,7 @@ function Header(){
     <header id="navBar">
     <div className="navContainer">
     <ul className='items'>
-      <a href='https://drive.google.com/drive/folders/1WuP7f1CY7OA5xPQ-w4ZdJ_G2MPTLnaIq?usp=sharing'><li className='listItem'>{t("header.CV")}</li></a>
+      <a href='https://drive.google.com/drive/folders/1WuP7f1CY7OA5xPQ-w4ZdJ_G2MPTLnaIq?usp=sharing' target="_blank"><li className='listItem'>{t("header.CV")}</li></a>
       <li className='listItem' onClick={e=>toAbout()}>{t("header.AboutMe")}</li>
       <li className='listItem' onClick={e=>toSkills()}>{t("header.Skills")}</li>
       <li className='listItem' onClick={e=>toProjects()}>{t("header.Projects")}</li>
@@ -39,10 +39,11 @@ function Header(){
     </ul>
     <div className='language'>
       <button onClick={()=>{i18n.changeLanguage("es")}} className='languageButton'>
-        <img className='languageButtonImg' src={spanish}/>
+        <img className='languageButtonImg' alt='Spanish' src={spanish}/>
       </button>
+      <p className='separator'>-</p>
       <button onClick={()=>{i18n.changeLanguage("en")}} className='languageButton'>
-        <img className='languageButtonImg' src={english}/>
+        <img className='languageButtonImg' alt='English' src={english}/>
       </button>
     </div>
     </div>

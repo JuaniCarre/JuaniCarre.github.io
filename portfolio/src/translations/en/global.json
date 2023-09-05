@@ -1,10 +1,10 @@
 {
   "header": {
-    "AboutMe": "About Me",
-    "Skills": "Skills",
-    "Projects": "Projects",
-    "Contact": "Contact",
-    "CV": "CV"
+    "AboutMe": "<ABOUT ME/>",
+    "Skills": "<SKILLS/>",
+    "Projects": "<PROJECTS/>",
+    "Contact": "<CONTACT/>",
+    "CV": "<CV>"
   },
   "FirstPage": {
     "Title": "Backend Developer.",
