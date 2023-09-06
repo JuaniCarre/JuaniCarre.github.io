@@ -1,32 +1,46 @@
 {
   "header":{
     "AboutMe":"<SOBRE MI/>",
-    "Skills":"<HABILIDADES/>",
+    "Skills":"<TECNOLOGIAS/>",
     "Projects":"<PROYECTOS/>",
     "Contact":"<CONTACTO/>",
     "CV":"<CV/>"
   },
   "FirstPage":{
-    "Title":"Desarrollador backend.",
-    "q1":"It's me against myself",
-    "q2":"And i'm not going to loose",
-    "q3":"Just kidding.",
+    "Title":"Desarrollador web.",
+    "q1":"Desarrollador web Full Stack, enfocado en backend.",
+    "q2":"Creando soluciones digitales con creatividad,",
+    "q3":"precisión, y pasión por la innovación",
     "location":"De Argentina, Buenos Aires."
   },
   "AboutMe":{
     "TitleAbout":"Sobre mi",
-    "TextAbout1":"Hola! Soy un desarrollador web full stack, especializado en backend. Tengo 24 años, soy de Argentina y actualmente vivo en Buenos Aires.",
-    "TextAbout2":"Mi camino dentro de la programacion comenzó al realizar el bootcamp de Soy Henry, el cual finalice exitosamente.",
-    "TextAbout3":"Estoy muy entusiasmado por demostrar mis conocimientos y habilidades, y contribuir en proyectos que me apasionen."
+    "TextAbout1":"Soy un apasionado desarrollador web Full Stack con una dedicación especial para crear software que simplifique la vida de los usuarios finales. Mi objetivo a corto plazo es asegurar mi primer trabajo en el campo del backend, mientras que a largo plazo, aspiro a sumergirme en un stack tecnológico en particular y convertirme en un experto en el mismo.",
+    "TextAbout2":"Mi enfoque analítico para el desarrollo de software garantiza la eficiencia, siempre orientado a la resolución de problemas en base a las necesidades del negocio.",
+    "TextAbout3":"Mi experiencia en proyectos grupales me ha demostrado que mi facilidad para integrarme en equipos de trabajo y mejorar el ambiente laboral mediante relaciones interpersonales positivas es un activo valioso.",
+    "TextAbout4":"Más allá de mi trabajo en el mundo de la tecnología, tengo una serie de pasiones que incluyen la musica, el patinaje en rollers y longboard, el gimnasio, el automobilismo y mi pasado en el rugby.",
+    "TextAbout5":"Para mí, cada nuevo problema es una oportunidad emocionante para aprender algo nuevo y crecer profesionalmente."
   },
   "Skills":"Habilidades",
-  "Projects":{
-    "Projects":"Proyectos",
-    "title1":"AutoBid",
-    "role1":"Desarrollador backend - Pasantia",
-    "description1":"Desarrollo del servidor y base de datos del proyecto. Implementacion de funcionalidades como el manejo de usuarios y sus roles, subastas, pujas, tiempos de ejecucion, enrutado logico, entre otras tareas.",
-    "repo":"Repositorio",
-    "deploy":"Link"
+  "Projects": {
+    "Projects": "Proyectos",
+    "Project1": {
+      "title": "Auto Bid",
+      "role": "Desarrollador backend - Pasantia.",
+      "description": "Desarrollo del servidor y base de datos del proyecyo. Implementacion de funcionalidades como manejo de usuarios, subastas, pujas, manejo de tiempos de ejecucion, enrutado logico, entre otras tareas. Fue mi primer experiencia trabajando con gente fuera del programa del bootcamp Soy Henry.",
+      "repo": "Repositorio",
+      "deploy": "Link"
+    },
+    "Project2": {
+      "title": "Henry Luxury E-commerce",
+      "role": "Desarrollador Backend",
+      "description": "Proyecto realizado como proyecto final del bootcamp de Henry. Desarrollo del servidor y base de datos, utilizando Node.js con Express para el backend, y MongoDb con Mongoose para la base de datos. Servidor totalmente funcional, incluyendo panel de administrador, pasarela de pagos, control de stock, notificaciones por mail, entre otras funcionalidades. Proyecto realizado junto a 5 compañeros del bootcamp."
+    },
+    "Project3": {
+      "title": "PokePedia",
+      "role": "Desarrollador Full Stack",
+      "description": "Design and developement of a single page application, that includes searches, filtering, sorting and creation. Developed using React with Redux and CSS on the front-end and Node.js with Express and PostgreSQL on the back-end. This was my first full-stack project after finishing the theorical part of the bootcamp i made."
+    }
   },
   "Contact":"Contacto"
-} 
+}

@@ -1,43 +1,45 @@
 {
   "header": {
     "AboutMe": "<ABOUT ME/>",
-    "Skills": "<SKILLS/>",
+    "Skills": "<TECHNOLOGIES/>",
     "Projects": "<PROJECTS/>",
     "Contact": "<CONTACT/>",
     "CV": "<CV/>"
   },
   "FirstPage": {
-    "Title": "Backend Developer.",
-    "q1": "It's me against myself",
-    "q2": "And I'm not going to lose",
-    "q3": "Just kidding.",
+    "Title": "Web Developer.",
+    "q1": "Full Stack Web Developer, backend focused.",
+    "q2": "Crafting digital solutions with creativity,",
+    "q3": "precision, and a passion for innovation.",
     "location": "From Argentina, Buenos Aires."
   },
   "AboutMe": {
     "TitleAbout": "About Me",
-    "TextAbout1": "Hello! I am a full stack web developer, specialized in backend. I am 24 years old, from Argentina, and currently living in Buenos Aires.",
-    "TextAbout2": "My journey in programming began when I successfully completed the Soy Henry bootcamp.",
-    "TextAbout3": "I am very excited to showcase my knowledge and skills, and contribute to projects that I am passionate about."
-  },
+    "TextAbout1": "I'm a passionate Full Stack web developer with a special dedication to creating software that simplifies the lives of end users. My short-term goal is to secure my first job in the backend field, while in the long term, I aspire to immerse myself in a particular technological stack and become an expert in it.",
+    "TextAbout2": "My analytical approach to software development ensures efficiency, always focused on problem-solving based on business needs.",
+    "TextAbout3": "My experience in group projects has shown me that my ability to integrate into work teams and improve the working environment through positive interpersonal relationships is a valuable asset.",
+    "TextAbout4": "Beyond my work in the world of technology, I have a range of passions that include music, roller skating and longboarding, the gym, motorsport, and my background in rugby.",
+    "TextAbout5": "For me, every new problem is an exciting opportunity to learn something new and grow professionally."
+},
   "Skills": "Skills",
   "Projects": {
     "Projects": "Projects",
     "Project1": {
       "title": "Auto Bid",
       "role": "Backend developer - Internship.",
-      "description": "Developement of the server and database for the project. Implementation of functionalities, users management, auctions, bidding, execution times, logical routing, among other tasks.",
+      "description": "Developement of the server and database for the project. Implementation of functionalities, users management, auctions, bidding, execution times, logical routing, among other tasks. It was my first experience working with people outside of the bootcamp's program.",
       "repo": "Repository",
       "deploy": "Link"
     },
     "Project2": {
       "title": "Henry Luxury E-commerce",
       "role": "Backend developer",
-      "description": "Developement of the server and database for the project, using MongoDB as database and Mongoose as ORM. Fully working server, including admin dashboard, payment methods, stock control, mail notifications to users, among other functionalities"
+      "description": "Developement of the server and database for the project, using MongoDB as database and Mongoose as ORM. Fully working server, including admin dashboard, payment methods, stock control, mail notifications to users, among other functionalities. Project made with a team of 5 partners as the final bootcamp project."
     },
     "Project3": {
       "title": "PokePedia",
       "role": "Full Stack developer",
-      "description": "Design and developement of a single page application, that includes searches, filtering, sorting and creation. Developed using React with Redux and CSS on the front-end and Node.js with Express and PostgreSQL on the back-end."
+      "description": "Design and developement of a single page application, that includes searches, filtering, sorting and creation. Developed using React with Redux and CSS on the front-end and Node.js with Express and PostgreSQL on the back-end. This was my first full-stack project after finishing the theorical part of the bootcamp i made."
     }
   },
   "Contact": "Contact"
