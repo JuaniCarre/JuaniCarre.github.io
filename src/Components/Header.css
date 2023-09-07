@@ -87,3 +87,47 @@ a{
 .separator{
   color: var(--p1);
 }
+
+@media (max-width: 786px){
+  .burger-button {
+    display: block;
+    cursor: pointer;
+    padding-top: 12px;
+  }
+
+  .items {
+    display: none; 
+  }
+
+
+  .items.open {
+    display: block;
+    background-color: #333;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .burger-button .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+
+  .burger-button.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .burger-button.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger-button.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}

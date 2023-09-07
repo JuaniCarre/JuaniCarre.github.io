@@ -6,7 +6,7 @@
   margin-right: 10vw;
 }
 
-.ProjectTag{
+.ProjectTag {
   display: flex;
   font-family: 'Archivo Narrow', sans-serif;
   letter-spacing: 0.7mm;
@@ -15,13 +15,16 @@
   justify-content: flex-start;
 }
 
-.ProjectContainer{
+.ProjectDivider{
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 70px;
 }
+
+
+
 
 .ProjectImage{
   height: 250px;
@@ -74,6 +77,28 @@
 }
 
 .ProjectLink{
-  color: var(--p2);
+  color: var(--tc);
   text-decoration: none;
+}
+
+
+@media (max-width: 786px){
+  .ProjectContainer{
+    border-style: double;
+    border-color: var(--p1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  .ProjectDivider{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .ProjectImage{
+    display: flex;
+    width: 85%;
+    height: auto;
+    padding-top: 50px;
+  }
 }
