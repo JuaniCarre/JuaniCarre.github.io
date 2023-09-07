@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b51c6095.css",
-    "main.js": "/portfolio/static/js/main.c018fbd0.js",
-    "static/media/AutoBid.png": "/portfolio/static/media/AutoBid.3e50e3a78efb66fbcb81.png",
-    "static/media/PokePedia.png": "/portfolio/static/media/PokePedia.d0494d6cdc014f50fccd.png",
-    "static/media/luxury.png": "/portfolio/static/media/luxury.8e8052dd1e7438027053.png",
-    "static/media/sequelize.png": "/portfolio/static/media/sequelize.31849aeba32aedcf7801.png",
-    "static/media/react.png": "/portfolio/static/media/react.4f1d9c58690d615e6413.png",
-    "static/media/postgres.png": "/portfolio/static/media/postgres.e13238713c8a87555082.png",
-    "static/media/NODE.png": "/portfolio/static/media/NODE.6e3ddae57666c35273bd.png",
-    "static/media/redux.png": "/portfolio/static/media/redux.26063695e3cd344ce9d2.png",
-    "static/media/HTML.png": "/portfolio/static/media/HTML.022cfb5c29bde5fd569e.png",
-    "static/media/github.png": "/portfolio/static/media/github.b78c393b905d8f50b00a.png",
-    "static/media/CSS3.png": "/portfolio/static/media/CSS3.77e0c66477c71f7bcd21.png",
-    "static/media/Mysql.png": "/portfolio/static/media/Mysql.241c281c178b3a45ae84.png",
-    "static/media/JS.png": "/portfolio/static/media/JS.17c4828e3763dc75fde8.png",
-    "static/media/linkedin.png": "/portfolio/static/media/linkedin.f43c208282da01b0910c.png",
-    "static/media/micara.jpg": "/portfolio/static/media/micara.7c2e0a96b84583646f5c.jpg",
-    "static/media/postman.png": "/portfolio/static/media/postman.88bcb68f99633e213856.png",
-    "index.html": "/portfolio/index.html",
-    "main.b51c6095.css.map": "/portfolio/static/css/main.b51c6095.css.map",
-    "main.c018fbd0.js.map": "/portfolio/static/js/main.c018fbd0.js.map"
+    "main.css": "/static/css/main.b51c6095.css",
+    "main.js": "/static/js/main.5c9b008b.js",
+    "static/media/AutoBid.png": "/static/media/AutoBid.3e50e3a78efb66fbcb81.png",
+    "static/media/PokePedia.png": "/static/media/PokePedia.d0494d6cdc014f50fccd.png",
+    "static/media/luxury.png": "/static/media/luxury.8e8052dd1e7438027053.png",
+    "static/media/sequelize.png": "/static/media/sequelize.31849aeba32aedcf7801.png",
+    "static/media/react.png": "/static/media/react.4f1d9c58690d615e6413.png",
+    "static/media/postgres.png": "/static/media/postgres.e13238713c8a87555082.png",
+    "static/media/NODE.png": "/static/media/NODE.6e3ddae57666c35273bd.png",
+    "static/media/redux.png": "/static/media/redux.26063695e3cd344ce9d2.png",
+    "static/media/HTML.png": "/static/media/HTML.022cfb5c29bde5fd569e.png",
+    "static/media/github.png": "/static/media/github.b78c393b905d8f50b00a.png",
+    "static/media/CSS3.png": "/static/media/CSS3.77e0c66477c71f7bcd21.png",
+    "static/media/Mysql.png": "/static/media/Mysql.241c281c178b3a45ae84.png",
+    "static/media/JS.png": "/static/media/JS.17c4828e3763dc75fde8.png",
+    "static/media/linkedin.png": "/static/media/linkedin.f43c208282da01b0910c.png",
+    "static/media/micara.jpg": "/static/media/micara.7c2e0a96b84583646f5c.jpg",
+    "static/media/postman.png": "/static/media/postman.88bcb68f99633e213856.png",
+    "index.html": "/index.html",
+    "main.b51c6095.css.map": "/static/css/main.b51c6095.css.map",
+    "main.5c9b008b.js.map": "/static/js/main.5c9b008b.js.map"
   },
   "entrypoints": [
     "static/css/main.b51c6095.css",
-    "static/js/main.c018fbd0.js"
+    "static/js/main.5c9b008b.js"
   ]
 }
