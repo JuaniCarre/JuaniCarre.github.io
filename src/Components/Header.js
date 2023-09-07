@@ -66,7 +66,7 @@ function Header(){
     <header id="navbar" className='navbar'>
     <div className="navContainer" id='navContainer'>
     <ul className='items'>
-      <a href='https://drive.google.com/drive/folders/1WuP7f1CY7OA5xPQ-w4ZdJ_G2MPTLnaIq?usp=sharing' target="_blank"><li className='listItem'>{t("header.CV")}</li></a>
+      <a rel="noreferrer" href='https://drive.google.com/drive/folders/1WuP7f1CY7OA5xPQ-w4ZdJ_G2MPTLnaIq?usp=sharing' target="_blank"><li className='listItem'>{t("header.CV")}</li></a>
       <li className='listItem' onClick={e=>toAbout()}>{t("header.AboutMe")}</li>
       <li className='listItem' onClick={e=>toSkills()}>{t("header.Skills")}</li>
       <li className='listItem' onClick={e=>toProjects()}>{t("header.Projects")}</li>

@@ -18,10 +18,10 @@ function Projects(){
           <p className="ProjectDescription">{t("Projects.Project1.description")}</p>
           <ul className='ProjectLinks'>
             <button className='ProjectButton'>
-              <a className='ProjectLink' target='_blank' href='https://github.com/matumoralli/AutoBid-API'><li>{t("Projects.Project1.repo")}</li></a>
+              <a rel="noreferrer" className='ProjectLink' target='_blank' href='https://github.com/matumoralli/AutoBid-API'><li>{t("Projects.Project1.repo")}</li></a>
             </button>
             <button className='ProjectButton'>
-              <a className='ProjectLink' href='https://autobidmarket.com/' target='_blank'><li>{t("Projects.Project1.deploy")}</li></a>
+              <a rel="noreferrer" className='ProjectLink' href='https://autobidmarket.com/' target='_blank'><li>{t("Projects.Project1.deploy")}</li></a>
             </button>
           </ul>
         </div>
@@ -34,7 +34,7 @@ function Projects(){
           <p className="ProjectDescription">{t("Projects.Project2.description")}</p>
           <ul className='ProjectLinks'>
             <button className='ProjectButton'>
-              <a className='ProjectLink' target='_blank' href='https://github.com/Santiago-Miranda/HENRY-LUXURY'><li>{t("Projects.Project1.repo")}</li></a>
+              <a rel="noreferrer" className='ProjectLink' target='_blank' href='https://github.com/Santiago-Miranda/HENRY-LUXURY'><li>{t("Projects.Project1.repo")}</li></a>
             </button>
             <button className='ProjectButton'>
               <li onClick={()=> {alert("This project is not deployed. you can check the repository!")}}>{t("Projects.Project1.deploy")}</li>
@@ -50,7 +50,7 @@ function Projects(){
           <p className="ProjectDescription">{t("Projects.Project3.description")}</p>
           <ul className='ProjectLinks'>
             <button className='ProjectButton'>
-              <a className='ProjectLink' target='_blank' href='https://github.com/JuaniCarre/PI-pokemon'><li>{t("Projects.Project1.repo")}</li></a>
+              <a rel="noreferrer" className='ProjectLink' target='_blank' href='https://github.com/JuaniCarre/PI-pokemon'><li>{t("Projects.Project1.repo")}</li></a>
             </button>
             <button className='ProjectButton'>
               <li onClick={()=> {alert("This project is not deployed. you can check the repository!")}}>{t("Projects.Project1.deploy")}</li>

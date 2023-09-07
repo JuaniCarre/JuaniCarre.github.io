@@ -27,9 +27,9 @@ function Footer(){
     <footer className='footerContainer'>
       <h3 className="footerText" id="contact">{t("Contact")}</h3>
       <div className='LinksContainer'>
-        <a href='https://www.linkedin.com/in/juani-carre/' target="_blank"><img src={linkedin} alt="Linkedin" className="FooterImage"/></a>
+        <a rel="noreferrer" href='https://www.linkedin.com/in/juani-carre/' target="_blank"><img src={linkedin} alt="Linkedin" className="FooterImage"/></a>
         <img src={gmail} alt="Mail" className="FooterImage" onClick={handleGmailClick}/>
-        <a href="https://github.com/JuaniCarre" target="_blank"><img src={github} alt="GitHub" className="FooterImage"/></a>
+        <a rel="noreferrer" href="https://github.com/JuaniCarre" target="_blank"><img src={github} alt="GitHub" className="FooterImage"/></a>
       </div>
     </footer>
   )
