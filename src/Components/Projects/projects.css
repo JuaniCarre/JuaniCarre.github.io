@@ -20,7 +20,7 @@
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
 }
 
 
@@ -89,6 +89,7 @@
     border-top: none;
     border-left: none;
     border-right: none;
+    padding-bottom: 30px;
   }
   .ProjectDivider{
     display: flex;
@@ -99,6 +100,6 @@
     display: flex;
     width: 85%;
     height: auto;
-    padding-top: 50px;
+    padding-top: 30px;
   }
 }

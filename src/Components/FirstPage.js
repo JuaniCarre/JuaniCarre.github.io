@@ -12,6 +12,7 @@ function FirstPage() {
         </h1>
         <h3 className="title">{t("FirstPage.Title")}
         </h3>
+        <img src={css} className="MyPictureResponsive" alt="Mi Foto"></img>
         <h2 className="quote">{t("FirstPage.q1")}<br/>{t("FirstPage.q2")}<br/>{t("FirstPage.q3")}<br/><br/><br/> {t("FirstPage.location")}
         </h2>
     </div>
