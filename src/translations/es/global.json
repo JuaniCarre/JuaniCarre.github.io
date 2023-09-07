@@ -21,7 +21,7 @@
     "TextAbout4":"Más allá de mi trabajo en el mundo de la tecnología, tengo una serie de pasiones que incluyen la musica, el patinaje en rollers y longboard, el gimnasio, el automobilismo y mi pasado en el rugby.",
     "TextAbout5":"Para mí, cada nuevo problema es una oportunidad emocionante para aprender algo nuevo y crecer profesionalmente."
   },
-  "Skills":"Habilidades",
+  "Skills":"Tecnologías",
   "Projects": {
     "Projects": "Proyectos",
     "Project1": {
@@ -39,7 +39,7 @@
     "Project3": {
       "title": "PokePedia",
       "role": "Desarrollador Full Stack",
-      "description": "Design and developement of a single page application, that includes searches, filtering, sorting and creation. Developed using React with Redux and CSS on the front-end and Node.js with Express and PostgreSQL on the back-end. This was my first full-stack project after finishing the theorical part of the bootcamp i made."
+      "description": "Diseño y desarrollo de una single page application, que incluye busquedas, filtros, ordenamientos y creacion de Pokemons, junto con Pokeapi. Desarrollada utilizando React con Redux y CSS en el front-end y Node.js con Express y PostreSQL en el back-end. Este fue mi primer proyecto full-stack despues de terminar los modulos teoricos del bootcamp."
     }
   },
   "Contact":"Contacto"

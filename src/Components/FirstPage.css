@@ -3,7 +3,9 @@
 
 
 .FirstPageContainer{
-  background-color: var(--p4);
+  background-image: url('../images/Background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: row;
   border-style: double;
