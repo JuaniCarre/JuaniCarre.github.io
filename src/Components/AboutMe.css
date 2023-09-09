@@ -1,4 +1,6 @@
 .AboutMe{
+  display: flex;
+  flex-direction: column;
   background-color: var(--p4);
   border-style: double;
   border-color: var(--p1);
@@ -29,4 +31,8 @@
   align-items: center;
   line-height: 35px;
   padding-bottom: 80px;
+}
+
+@media (max-width: 786px){
+
 }
