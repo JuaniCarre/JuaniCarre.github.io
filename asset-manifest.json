@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.28b018ad.css",
-    "main.js": "/static/js/main.02e68093.js",
+    "main.css": "/static/css/main.4c1cfeb8.css",
+    "main.js": "/static/js/main.470aecf7.js",
     "static/media/AutoBid.png": "/static/media/AutoBid.3e50e3a78efb66fbcb81.png",
     "static/media/PokePedia.png": "/static/media/PokePedia.d0494d6cdc014f50fccd.png",
     "static/media/luxury.png": "/static/media/luxury.8e8052dd1e7438027053.png",
@@ -20,11 +20,11 @@
     "static/media/micara.jpg": "/static/media/micara.7c2e0a96b84583646f5c.jpg",
     "static/media/postman.png": "/static/media/postman.88bcb68f99633e213856.png",
     "index.html": "/index.html",
-    "main.28b018ad.css.map": "/static/css/main.28b018ad.css.map",
-    "main.02e68093.js.map": "/static/js/main.02e68093.js.map"
+    "main.4c1cfeb8.css.map": "/static/css/main.4c1cfeb8.css.map",
+    "main.470aecf7.js.map": "/static/js/main.470aecf7.js.map"
   },
   "entrypoints": [
-    "static/css/main.28b018ad.css",
-    "static/js/main.02e68093.js"
+    "static/css/main.4c1cfeb8.css",
+    "static/js/main.470aecf7.js"
   ]
 }
