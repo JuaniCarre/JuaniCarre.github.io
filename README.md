@@ -4,7 +4,7 @@ If you have some reccomendation or advice to give me so i can improve it, you ca
 
 I'm also looking for a job at the moment, so i would really appreciate any contact to talk about a job.
 
-The link is JuaniCarre.github.io 
+You can acces my portfolio clicking [here](JuaniCarre.github.io) 
 
 
 
@@ -15,4 +15,4 @@ Si tienes alguna recomendación o consejo para darme para que pueda mejorarla, p
 
 También estoy buscando trabajo en este momento, así que apreciaría mucho cualquier contacto para hablar sobre una oportunidad laboral.
 
-El link es JuaniCarre.github.io 
+Podes acceder al repositorio clickeando [aquí](JuaniCarre.github.io) 
